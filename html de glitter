@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Glitter y Fiesta ✨</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">✨ Glitter y Fiesta ✨</div>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio" class="hero">
+    <div class="hero-texto">
+      <h1>Glitter y Fiesta</h1>
+      <p class="slogan">Brilla con nosotros en tu próximo evento</p>
+      <a href="#contacto" class="boton">¡Quiero brillar!</a>
+    </div>
+  </section>
+
+  <section id="servicios" class="servicios">
+    <h2>💎 Nuestros Servicios</h2>
+    <div class="servicio-grid">
+      <div class="servicio">
+        <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80" alt="Glitter makeup">
+        <h3>Maquillaje con Glitter</h3>
+        <p>Brillá con nuestros diseños únicos para fiestas, festivales y eventos especiales.</p>
+      </div>
+      <div class="servicio">
+        <img src="https://images.unsplash.com/photo-1508175800972-94a3cb3b46c7?auto=format&fit=crop&w=800&q=80" alt="Body art con glitter">
+        <h3>Body Art y Brillos</h3>
+        <p>Decoraciones corporales artísticas para destacar con estilo y color.</p>
+      </div>
+      <div class="servicio">
+        <img src="https://images.unsplash.com/photo-1562313227-67f57b1b4d4c?auto=format&fit=crop&w=800&q=80" alt="Glitter para eventos">
+        <h3>Stand en Eventos</h3>
+        <p>Llevamos la magia de nuestro glitter a tu fiesta, casamiento o festival.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="galeria" class="galeria">
+    <h2>📸 Galería de Brillos</h2>
+    <div class="fotos">
+      <img src="https://images.unsplash.com/photo-1607779449622-9a4a7a0b8cc8?auto=format&fit=crop&w=400&q=80" alt="Glitter look 1">
+      <img src="https://images.unsplash.com/photo-1578926284631-d75544a6a7f9?auto=format&fit=crop&w=400&q=80" alt="Glitter look 2">
+      <img src="https://images.unsplash.com/photo-1601924928376-3e3c25b16146?auto=format&fit=crop&w=400&q=80" alt="Glitter look 3">
+      <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=400&q=80" alt="Glitter look 4">
+    </div>
+  </section>
+
+  <section id="contacto" class="contacto">
+    <h2>💬 Contacto</h2>
+    <p>¿Querés brillar en tu próximo evento? ¡Hablemos!</p>
+    <div class="contact-info">
+      <p><strong>Instagram:</strong> <a href="https://instagram.com/glitteryfiesta" target="_blank">@glitteryfiesta</a></p>
+      <p><strong>Email:</strong> <a href="mailto:contacto@glitteryfiesta.com">contacto@glitteryfiesta.com</a></p>
+      <p><strong>WhatsApp:</strong> +54 9 11 1234 5678</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>✨ Glitter y Fiesta © 2025 ✨ | Brillá sin límites 💖</p>
+  </footer>
+</body>
+</html>
